@@ -11,7 +11,7 @@ We have packaged IoTCheck using [Vagrant 1.8.1](https://www.vagrantup.com). Tech
     $ sudo apt-get install vagrant
 ```
 
-3. Next, we run Vagrant inside the "iotcheck-vagrant" folder.
+3. Next, we run Vagrant inside the **iotcheck-vagrant** folder.
 
 ```
     iotcheck-vagrant $ vagrant up
