@@ -11,18 +11,24 @@ We have packaged IoTCheck using [Vagrant 1.8.1](https://www.vagrantup.com). Tech
     $ sudo apt-get install vagrant
 ```
 
-3. Next, we run Vagrant inside the **iotcheck-vagrant** folder.
+3. We also need to check out this repository into our machine.
+
+```
+    $ git clone https://github.com/iotuser22/iotcheck-vagrant.git
+```
+
+4. Next, we run Vagrant inside the **iotcheck-vagrant** folder.
 
 ```
     iotcheck-vagrant $ vagrant up
 ```
 
-4. When the provisioning is done and Vagrant is up, we need to ssh into the running Vagrant VM.
+5. When the provisioning is done and Vagrant is up, we need to ssh into the running Vagrant VM.
 
 ```
     iotcheck-vagrant $ vagrant ssh
 ```
-5. Finally, inside we run the setup script to download IoTCheck and set up the environment variables.
+6. Finally, inside we run the setup script to download IoTCheck and set up the environment variables.
 
 ```
     $ source /vagrant/data/setup.sh
