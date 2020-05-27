@@ -64,3 +64,4 @@ mkdir logs/globalStateVariables
 # Examples
 mkdir logs/exampleConflicts
 mkdir logs/exampleNonConflicts
+cd ..
