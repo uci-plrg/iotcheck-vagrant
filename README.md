@@ -1,6 +1,11 @@
 # Vagrant for IoTCheck
 
-Please read our paper titled **"Understanding and Automatically Detecting Conflicting Interactions between Smart Home Applications"** before using IoTCheck. 
+Please read our paper before using IoTCheck. 
+
+**Understanding and Automatically Detecting Conflicting Interactions between Smart Home Applications**\
+*Rahmadi Trimananda, Seyed Amir Hossein Aqajari, Jason Chuang, Brian Demsky, Guoqing Harry Xu, and Shan Lu,*\
+*Proceedings of the ACM SIGSOFT International Symposium on Foundations of Software Engineering 2020 (FSE 2020).*
+
 We have packaged IoTCheck using [Vagrant 1.8.1](https://www.vagrantup.com). We installed and ran Vagrant on Ubuntu 16.04.6 LTS (Xenial Xerus). Nevertheless, Vagrant can run on various operating systems (Linux, Mac OS, Windows, etc.). For more information on how to run Vagrant, please consult its [documentation](https://www.vagrantup.com/docs/index.html).
 
 1. In order for Vagrant to run, we should first make sure that the [VT-d option for virtualization is enabled in BIOS](https://docs.fedoraproject.org/en-US/Fedora/13/html/Virtualization_Guide/sect-Virtualization-Troubleshooting-Enabling_Intel_VT_and_AMD_V_virtualization_hardware_extensions_in_BIOS.html).
