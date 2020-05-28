@@ -25,7 +25,7 @@ The provided `Vagrantfile` and `bootstrap.sh` provisioning script will prepare t
     $ git clone https://github.com/iotuser22/iotcheck-vagrant.git
 ```
 
-4. Next, we run Vagrant inside the **iotcheck-vagrant** folder.
+4. Next, we run Vagrant inside the **iotcheck-vagrant** folder.  Vagrant will download IoTCheck and perform the setup.
 
 ```
     iotcheck-vagrant $ vagrant up
@@ -35,11 +35,6 @@ The provided `Vagrantfile` and `bootstrap.sh` provisioning script will prepare t
 
 ```
     iotcheck-vagrant $ vagrant ssh
-```
-6. Finally, inside we run the setup script to download IoTCheck and set up the environment variables.
-
-```
-    $ source /vagrant/data/setup.sh
 ```
 
 To run the experiments please read README.md in the folder **iotcheck** or on the [IoTCheck Github page](https://github.com/iotuser22/iotcheck). If you have any questions regarding IoTCheck, please do not hesitate to contact the [main author of the paper](https://rtrimana.github.io/cv/).

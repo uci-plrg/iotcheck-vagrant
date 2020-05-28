@@ -1,4 +1,4 @@
-#!/usr/bash
+#!/bin/bash
 
 # Download JPF, infrastructure, and apps
 git clone https://github.com/iotuser22/iotcheck.git
@@ -20,6 +20,8 @@ cd ../../../
 # Extract Groovy compiler and set up environment variables
 unzip /vagrant/data/apache-groovy-sdk-2.5.8.zip -d .
 source iotcheck/jpf-core/lib/setenv.sh $PWD
+echo "source ./iotcheck/jpf-core/lib/setenv.sh $PWD" >> ~/.bashrc
+
 
 # Download the SmartThings infrastructure for JPF model checker
 cd iotcheck/smartthings-infrastructure
