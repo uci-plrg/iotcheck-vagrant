@@ -42,4 +42,4 @@ The provided `Vagrantfile` and `bootstrap.sh` provisioning script will prepare t
     $ source /vagrant/data/setup.sh
 ```
 
-To run the experiments please read README.md in the folder **iotcheck** or on the [IoTCheck Github page](https://github.com/iotuser22/iotcheck).
+To run the experiments please read README.md in the folder **iotcheck** or on the [IoTCheck Github page](https://github.com/iotuser22/iotcheck). If you have any questions regarding IoTCheck, please do not hesitate to contact the [main author of the paper](https://rtrimana.github.io/cv/).
