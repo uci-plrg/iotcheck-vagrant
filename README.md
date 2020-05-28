@@ -6,7 +6,7 @@ Please read our paper before using IoTCheck.
 *Rahmadi Trimananda, Seyed Amir Hossein Aqajari, Jason Chuang, Brian Demsky, Guoqing Harry Xu, and Shan Lu,*\
 *Proceedings of the ACM SIGSOFT International Symposium on Foundations of Software Engineering 2020 (FSE 2020).*
 
-We have packaged IoTCheck using [Vagrant 1.8.1](https://www.vagrantup.com). We installed and ran Vagrant on Ubuntu 16.04.6 LTS (Xenial Xerus). Nevertheless, Vagrant can run on various operating systems (Linux, Mac OS, Windows, etc.). For more information on how to run Vagrant, please consult its [documentation](https://www.vagrantup.com/docs/index.html).
+We have packaged IoTCheck using [Vagrant 1.8.1](https://www.vagrantup.com). We installed and ran Vagrant on Ubuntu 16.04.6 LTS (Xenial Xerus) and Ubuntu 18.04.4 LTS (Bionic Beaver). Nevertheless, Vagrant can run on various operating systems (Linux, Mac OS, Windows, etc.). For more information on how to run Vagrant, please consult its [documentation](https://www.vagrantup.com/docs/index.html).
 
 The provided `Vagrantfile` and `bootstrap.sh` provisioning script will prepare the environment with the required packages to run IoTCheck. We have set up the Vagrant configuration to create a VM that uses 24GB of memory. You can change that by changing the line in the `Vagrantfile` that contains `"--memory", "24552"`. For our experiments with IoTCheck, we set JPF to [use up to 20GB of memory](https://github.com/iotuser22/iotcheck/wiki/IoTCheck-JPF#Run-Script), so a VM with 24GB of memory should be sufficient.
 
