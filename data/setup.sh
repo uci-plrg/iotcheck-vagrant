@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download JPF, infrastructure, and apps
-git clone https://github.com/iotuser22/iotcheck.git
+git clone https://github.com/uci-plrg/iotcheck.git
 
 # Compile JPF
 cd iotcheck/jpf-core/
