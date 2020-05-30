@@ -1,5 +1,5 @@
+[![DOI](https://zenodo.org/badge/267887336.svg)](https://zenodo.org/badge/latestdoi/267887336)
 # Vagrant for IoTCheck
-
 Please read our paper before using IoTCheck. 
 
 **Understanding and Automatically Detecting Conflicting Interactions between Smart Home Applications**\
