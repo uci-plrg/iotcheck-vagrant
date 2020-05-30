@@ -37,4 +37,4 @@ The provided `Vagrantfile` and `bootstrap.sh` provisioning script will prepare t
     iotcheck-vagrant $ vagrant ssh
 ```
 
-To run the experiments please read README.md in the folder **iotcheck** or on the [IoTCheck Github page](https://github.com/uci-plrg/iotcheck). If you have any questions regarding IoTCheck, please do not hesitate to contact the [main author of the paper](https://rtrimana.github.io/cv/).
+To run the experiments please read README.md in the folder **iotcheck** or on the [IoTCheck Github page](https://github.com/uci-plrg/iotcheck). If you have any questions regarding IoTCheck, please do not hesitate to contact the [main author of the paper](https://rtrimana.github.io/).
