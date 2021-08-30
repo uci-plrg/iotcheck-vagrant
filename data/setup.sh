@@ -3,6 +3,7 @@
 # Install JDK 1.8.0_201 (recent updates to JDK 8 has class structure changes).
 sudo mkdir -p /opt/jdk
 cd /opt/jdk
+# Source: https://medium.com/@acpanjan/download-google-drive-files-using-wget-3c2c025a8b99
 sudo wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1SpzLge7g69j5NVmry637P72cU5vpgFGE' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1SpzLge7g69j5NVmry637P72cU5vpgFGE" -O jdk-8u201-linux-x64.tar.gz && rm -rf /tmp/cookies.txt
 sudo tar -zxf jdk-8u201-linux-x64.tar.gz
 sudo update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_201/bin/java 100
